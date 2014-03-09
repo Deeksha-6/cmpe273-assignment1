@@ -38,11 +38,11 @@ public class BookInfo {
      
         public BookInfo() {} 
      
-        public BookInfo(String title, String publicationDate, String language, int numOfPages, String status, ArrayList<Author> authors) {
-            this.title = title;
+        public BookInfo(String  booktitle, String publicationDate, String language, int numberofPages, String status, ArrayList<Author> authors) {
+            this.title = booktitle;
             this.publicationDate = publicationDate;
             this.language = language;
-            this.numOfPages = numOfPages;
+            this.numOfPages = numberOfPages;
             this.status = status;
             this.authors = authors;
         }
