@@ -42,7 +42,7 @@ public class BookInfo {
             this.title = booktitle;
             this.publicationDate = publicationDate;
             this.language = language;
-            this.numOfPages = numberOfPages;
+            this.numOfPages = numberofPages;
             this.status = status;
             this.authors = authors;
         }
